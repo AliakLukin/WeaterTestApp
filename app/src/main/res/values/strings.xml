@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">WeaterTestApp</string>
+    <string name="error_select_place">Unable to select current place</string>
+    <string name="error_current_location">Unable to get current location</string>
+    <string name="home">Home</string>
+    <string name="others">Others</string>
+    <string name="temperature">%s &#8451;</string>
+    <string name="today">Today</string>
+    <string name="day_temperature">Day Temperature</string>
+    <string name="night_temperature">Night Temperature</string>
+    <string name="feels_like_day_temperature">Day feels like</string>
+    <string name="feels_like_night_temperature">Night feels like</string>
+    <string name="humidity">Humidity</string>
+    <string name="pressure">Pressure</string>
+    <string name="sunrise_time">Sunrise time</string>
+    <string name="sunset_time">Sunset time</string>
 </resources>
