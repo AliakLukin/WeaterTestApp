@@ -86,7 +86,6 @@ class LocationsFragment : Fragment(), OnLocationClicked, OnDeleteLocationClicked
         autocompleteFragment.setOnPlaceSelectedListener(object : PlaceSelectionListener {
             override fun onPlaceSelected(place: Place) {
                 viewModel.saveLocation(place.name, place.latLng?.latitude, place.latLng?.longitude)
-                autocompleteFragment.setText("")
             }
 
             override fun onError(status: Status) {
