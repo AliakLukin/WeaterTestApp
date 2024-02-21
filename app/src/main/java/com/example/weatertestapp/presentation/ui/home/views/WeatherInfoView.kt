@@ -4,7 +4,7 @@ import android.content.Context
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.widget.LinearLayout
-import com.example.domain.model.CurrentForecast
+import com.example.domain.model.network.CurrentForecast
 import com.example.weatertestapp.R
 import com.example.weatertestapp.databinding.ItemWeatherInfoViewBinding
 import com.example.weatertestapp.presentation.utils.loadIcon

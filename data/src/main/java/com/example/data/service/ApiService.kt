@@ -1,7 +1,7 @@
 package com.example.data.service
 
-import com.example.data.model.CurrentForecastResponse
-import com.example.data.model.ForecastResponse
+import com.example.data.model.network.CurrentForecastResponse
+import com.example.data.model.network.ForecastResponse
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query

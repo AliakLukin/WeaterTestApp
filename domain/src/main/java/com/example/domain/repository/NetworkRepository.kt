@@ -1,8 +1,8 @@
 package com.example.domain.repository
 
 import com.example.domain.ApiResult
-import com.example.domain.model.CurrentForecast
-import com.example.domain.model.Forecast
+import com.example.domain.model.network.CurrentForecast
+import com.example.domain.model.network.Forecast
 
 interface NetworkRepository {
     suspend fun getForecast(latitude: Double, longitude: Double): ApiResult<Forecast>

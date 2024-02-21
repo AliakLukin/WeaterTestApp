@@ -3,7 +3,6 @@ package com.example.weatertestapp.presentation.ui.home.adapter
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.domain.model.Day
 import com.example.weatertestapp.databinding.ItemWeatherWithDateBinding
 import com.example.weatertestapp.model.DayLocal
 

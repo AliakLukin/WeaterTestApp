@@ -6,7 +6,7 @@
         android:title="@string/home" />
 
     <item
-        android:id="@+id/navigation_others"
+        android:id="@+id/navigation_locations"
         android:icon="@drawable/ic_others"
-        android:title="@string/others" />
+        android:title="@string/locations" />
 </menu>

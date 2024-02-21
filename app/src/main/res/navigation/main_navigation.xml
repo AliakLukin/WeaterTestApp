@@ -15,9 +15,12 @@
     </fragment>
 
     <fragment
-        android:id="@+id/navigation_others"
-        android:name="com.example.weatertestapp.presentation.ui.other.OthersFragment"
-        tools:layout="@layout/fragment_others">
+        android:id="@+id/navigation_locations"
+        android:name="com.example.weatertestapp.presentation.ui.locations.LocationsFragment"
+        tools:layout="@layout/fragment_locations">
+        <action
+            android:id="@+id/action_open__location_info"
+            app:destination="@id/navigation_location_info" />
     </fragment>
 
     <fragment
@@ -28,6 +31,19 @@
         <argument
             android:name="dayLocal"
             app:argType="com.example.weatertestapp.model.DayLocal" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_location_info"
+        android:name="com.example.weatertestapp.presentation.ui.locationinfo.LocationInfoFragment"
+        android:label="Location Info Fragment"
+        tools:layout="@layout/fragment_location_info">
+        <argument
+            android:name="latLonLocal"
+            app:argType="com.example.weatertestapp.model.LatLongLocal" />
+        <action
+            android:id="@+id/action_open_info"
+            app:destination="@id/navigation_info" />
     </fragment>
 
 </navigation>

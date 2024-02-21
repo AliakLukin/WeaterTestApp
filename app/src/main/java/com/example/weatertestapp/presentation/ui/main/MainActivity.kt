@@ -4,9 +4,6 @@ import android.Manifest
 import android.content.pm.PackageManager
 import android.location.Location
 import android.os.Bundle
-import android.util.Log
-import android.view.View
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.view.isVisible
@@ -18,13 +15,9 @@ import com.example.weatertestapp.databinding.ActivityMainBinding
 import com.example.weatertestapp.model.LatLongLocal
 import com.example.weatertestapp.presentation.ui.home.HomeViewModel
 import com.example.weatertestapp.presentation.utils.showToast
-import com.google.android.gms.common.api.Status
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
 import com.google.android.libraries.places.api.Places
-import com.google.android.libraries.places.api.model.Place
-import com.google.android.libraries.places.widget.AutocompleteSupportFragment
-import com.google.android.libraries.places.widget.listener.PlaceSelectionListener
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 private const val REQUEST_LOCATION_PERMISSION = 1
@@ -94,7 +87,6 @@ class MainActivity : AppCompatActivity() {
             ) != PackageManager.PERMISSION_GRANTED
         ) {
             showToast(R.string.error_current_location)
-//            requestLocationPermission()
             return
         }
         fusedLocationClient.lastLocation

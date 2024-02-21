@@ -1,6 +1,6 @@
 package com.example.weatertestapp.mappers
 
-import com.example.domain.model.Weather
+import com.example.domain.model.network.Weather
 import com.example.weatertestapp.model.WeatherLocal
 
 class WeatherLocalMapper {

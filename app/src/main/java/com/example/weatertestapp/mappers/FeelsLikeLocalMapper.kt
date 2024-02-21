@@ -1,6 +1,6 @@
 package com.example.weatertestapp.mappers
 
-import com.example.domain.model.FeelsLike
+import com.example.domain.model.network.FeelsLike
 import com.example.weatertestapp.model.FeelsLikeLocal
 
 class FeelsLikeLocalMapper {

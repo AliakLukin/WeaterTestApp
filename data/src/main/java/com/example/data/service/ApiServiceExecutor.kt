@@ -1,12 +1,12 @@
 package com.example.data.service
 
-import com.example.data.mappers.CurrentForecastMapper
-import com.example.data.mappers.ForecastMapper
-import com.example.data.model.CurrentForecastResponse
-import com.example.data.model.ForecastResponse
+import com.example.data.mappers.network.CurrentForecastMapper
+import com.example.data.mappers.network.ForecastMapper
+import com.example.data.model.network.CurrentForecastResponse
+import com.example.data.model.network.ForecastResponse
 import com.example.domain.ApiResult
-import com.example.domain.model.CurrentForecast
-import com.example.domain.model.Forecast
+import com.example.domain.model.network.CurrentForecast
+import com.example.domain.model.network.Forecast
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import retrofit2.Response

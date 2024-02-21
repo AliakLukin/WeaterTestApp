@@ -3,10 +3,9 @@ package com.example.weatertestapp.presentation.ui.home
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
-import com.example.domain.model.CurrentForecast
-import com.example.domain.model.Forecast
-import com.example.domain.usecase.GetCurrentWeatherUseCase
-import com.example.domain.usecase.GetForecastUseCase
+import com.example.domain.model.network.CurrentForecast
+import com.example.domain.usecase.network.GetCurrentWeatherUseCase
+import com.example.domain.usecase.network.GetForecastUseCase
 import com.example.weatertestapp.mappers.DayLocalMapper
 import com.example.weatertestapp.model.DayLocal
 import com.example.weatertestapp.model.LatLongLocal

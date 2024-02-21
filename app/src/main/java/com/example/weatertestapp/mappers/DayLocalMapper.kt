@@ -1,6 +1,6 @@
 package com.example.weatertestapp.mappers
 
-import com.example.domain.model.Day
+import com.example.domain.model.network.Day
 import com.example.weatertestapp.model.DayLocal
 
 class DayLocalMapper(
